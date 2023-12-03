@@ -1,0 +1,27 @@
+project:
+  type: book
+  output-dir: docs
+
+book:
+  title: "统计学笔记"
+  author: "Wu Yanzu"
+  date: "2023/12/2"
+  search: true
+  repo-url: https://github.com/Zeuyel/Statistica_Note_HXH
+  repo-actions: [edit]
+  chapters:
+    - index.qmd
+    - 0.引言.qmd
+    - 1.统计调查.qmd
+    - 2.综合指标.qmd
+    - references.qmd
+
+bibliography: references.bib
+
+format:
+  html:
+    theme: cosmo
+
+
+
+
